@@ -165,3 +165,12 @@ span {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 407px) {
+    .content {
+        width: 370px;
+    }
+    .content a {
+        width: 98%;
+    }
+}
