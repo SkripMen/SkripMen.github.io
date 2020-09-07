@@ -159,16 +159,16 @@ span {
 
 @media screen and (max-width: 720px) {
     .content {
-        width: 440px;
+        width: 407px;
     }
     .content a {
-        width: 90%;
+        width: 92%;
     }
 }
 
 @media screen and (max-width: 407px) {
     .content {
-        width: 370px;
+        width: 340px;
     }
     .content a {
         width: 98%;
