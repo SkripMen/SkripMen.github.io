@@ -1,0 +1,194 @@
+body{
+	margin: 0px;
+	background-color: #e9e8e4;
+	font-family: 'Didact Gothic', sans-serif;
+}
+header{
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	height: 225px;
+	z-index: 0;
+}
+.content {
+	padding: 1em;
+	padding-bottom: 0;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+/*-navigation--------------*/
+.navigation{
+	width: 100%;
+	height: auto;
+	z-index: 0;
+	display: block;
+	margin: 0 auto;
+}
+.Line{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(45, 45, 45, 1);
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+	z-index: 1;
+
+}
+nav{
+	vertical-align: middle;
+	z-index: 2;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+nav ul{
+	display: inline-block;
+	list-style: inline;
+	margin: 0 auto;
+	/*margin-left: 20px;*/
+	padding: 0;
+}
+.navi{
+	list-style: none;
+	float: left;
+	/*margin-right: 20px;*/
+	/*margin-top: 15px;*/
+}
+.navi > .but{
+	display: block;
+	/*margin-bottom: 2em;*/
+	background: rgba(45, 45, 45, 1);
+}
+.navi > .but:hover{
+	background: rgba(69, 69, 69, 1);
+}
+.navi > .but:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.navi > .but > .data-col {
+	text-align: center;
+	width: 150px;
+	float: right;
+	padding: 8px;
+	font-size: 2em;
+	color: #e9e8e4;
+}
+.logo {
+	/* margin-left: 250px; */
+	max-width: 1356px;
+	z-index: 0;
+	margin: 0 auto;
+	display: inline-block;
+}
+/*-Table----------------------------------*/
+.Tr1{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 15px;
+}
+.Tr1 .Cell{
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 15px; 
+	/*float: left; */
+}
+.Tr1 img{
+	width: auto;
+	height: 170px;
+}
+
+.Tr2{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 15px;
+}
+.Tr2 .Cell{
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 15px; 
+	/*float: left; */
+}
+.Tr2 img{
+	width: auto;
+	height: 220px;
+}
+
+.Tr3{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 15px;
+}
+.Tr3 .Cell{
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 15px; 
+	/*float: left; */
+}
+.Tr3 img{
+	width: auto;
+	height: 220px;
+}
+
+.Tr4{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 15px;
+}
+.Tr4 .Cell{
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 10px; 
+	/*float: left; */
+}
+.Tr4 img{
+	width: auto;
+	height: 220px;
+}
+
+.Cell:hover{
+	transform: scale(1.07);
+}
+.Cell{
+	transition: all 1s ease-out;
+}
+/*---footer---------------*/
+
+footer{
+	padding-top: 5px;
+	border-top: solid;
+	border-width: 5px;
+	border-color: black;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+footer .Footer{
+	margin: 0 auto;
+	max-width: 1024px;
+	display: block;
+	text-align: center;
+}
+.Footer div{
+	vertical-align: middle;
+	float: left;
+	max-width: 512px;
+}
+.Footer img{
+	display: inline-block;
+	float: right;
+	margin: 5px;
+	margin-top: 0px; 
+	width: 20px;
+	height: 20px;
+}
