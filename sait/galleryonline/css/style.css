@@ -168,9 +168,9 @@ span {
 
 @media screen and (max-width: 407px) {
     .content {
-        width: 330px;
+        width: 300px;
     }
     .content a {
-        width: 98%;
+        width: 90%;
     }
 }
