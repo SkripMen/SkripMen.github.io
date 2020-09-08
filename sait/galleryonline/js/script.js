@@ -12,6 +12,18 @@ $('[data-fancybox="gallery"]').fancybox({
     ]
 });
 
+function cookies() {
+    let teams = $.cookie('teams');
+    let d = $('.black');
+    let w = $('.white');
+
+    if (teams == 'black') {
+        $('html').css('background', 'black');
+        d.fadeOut();
+        w.fadeIn();
+    }
+}
+
 function preloader() {
     $(() => {
         setInterval(() => {
@@ -27,8 +39,6 @@ function preloader() {
 
     });
 }
-
-preloader();
 
 function backToTop() {
     let but = $('.back');
@@ -47,4 +57,34 @@ function backToTop() {
     })
 }
 
+function dark() {
+    let d = $('.black');
+    let w = $('.white');
+
+    d.on('click', () => {
+        location.reload();
+        d.fadeOut();
+        $('html').css('background', 'black');
+        w.fadeIn();
+        $.cookie('teams', 'black');
+    })
+}
+
+function write() {
+    let d = $('.black');
+    let w = $('.white');
+
+    w.on('click', () => {
+        location.reload();
+        w.fadeOut();
+        $('html').css('background', 'white');
+        d.fadeIn();
+        $.cookie('teams', 'white');
+    })
+}
+
+cookies();
+preloader();
 backToTop();
+write();
+dark();
