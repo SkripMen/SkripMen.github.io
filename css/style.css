@@ -106,7 +106,11 @@ label #sidebar_but:hover {
 .bg {
     margin-left: 250px;
     height: 100vh;
+<<<<<<< HEAD
     background: url('https://raw.githubusercontent.com/SkripMen/skripmen.github.io/master/img/bg.png') center no-repeat;
+=======
+    background: url('https://github.com/SkripMen/skripmen.github.io/blob/master/img/bg.png') center no-repeat;
+>>>>>>> ac48bb50bda02ca435471569a1fb7ba302833045
     background-size: cover;
     transition: .5s;
     transition-property: margin-left;
