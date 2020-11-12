@@ -1,7 +1,0 @@
-Для Приближения фотографии исользуй(CSS):
-.imgT:hover{
-	transform: scale(1.07);
-}
-.imgT {
-	transition: all 1s ease-out;
-}
