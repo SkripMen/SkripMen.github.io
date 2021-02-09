@@ -12,3 +12,8 @@ http://skripmen.github.io
             frame.src = el.href;
         }
     </script>
+
+
+
+
+onmouseenter="openUrl(this)"
