@@ -1,0 +1,72 @@
+body {
+    animation: back 150s linear infinite;
+    transition: .3s linear;
+    font-family: 'Didact Gothic', sans-serif;
+    background: linear-gradient(-45deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    /*Защита от выделения и копироавния текста*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.con {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 30%;
+}
+
+a {
+    opacity: 0;
+    position: absolute;
+    width: 25%;
+    top: 60%;
+    left: 37%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #11998e, #38ef7eab);
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: .3s linear;
+    cursor: default;
+}
+
+a:hover {
+    background: linear-gradient(45deg, #fdfc47, #24fe41);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+    color: black;
+}
+
+@media(max-width:1080px) {
+    body {
+        font-size: 3em;
+    }
+    table {
+        width: 60%;
+    }
+}
